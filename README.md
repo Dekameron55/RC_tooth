@@ -17,4 +17,4 @@ Screenshot of the application below.
 
 For debugging the device and application.
 
-<img src="https://github.com/Dekameron55/RC_tooth/blob/main/photo.png" width=30% height=30%>)
+<img src="https://github.com/Dekameron55/RC_tooth/blob/main/photo.png" width=30% height=30%>
