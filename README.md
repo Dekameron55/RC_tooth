@@ -13,10 +13,11 @@ The application can control the LED matrix brightness, color and intensity.
 The application can set also custom animations.
 The application can also display and send debug information in a scrollbar for additional information while debugging.
 Screenshot of the application below.
-<img src="https://github.com/Dekameron55/RC_tooth/blob/main/Photo2.png" width=30% height=30%>
+
+<img src="https://github.com/Dekameron55/RC_tooth/blob/main/Photo2.png" width=20% height=20%>
 
 For debugging the device and application.
 
-<img src="https://github.com/Dekameron55/RC_tooth/blob/main/photo.png" width=30% height=30%>
+<img src="https://github.com/Dekameron55/RC_tooth/blob/main/photo.png" width=20% height=20%>
 
-<img src="https://github.com/Dekameron55/RC_tooth/blob/main/photo3.png" width=30% height=30%>
+<img src="https://github.com/Dekameron55/RC_tooth/blob/main/photo3.png" width=20% height=20%>
