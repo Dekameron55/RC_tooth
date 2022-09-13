@@ -11,7 +11,7 @@ The user has to connect to the ESP device in order for the application to work.
 
 The application can control the LED matrix brightness, color and intensity.
 The application can set also custom animations.
-The application can also display debug information in a scrollbar for additional information while debugging.
+The application can also display and send debug information in a scrollbar for additional information while debugging.
 Screenshot of the application below.
 <img src="https://github.com/Dekameron55/RC_tooth/blob/main/Photo2.png" width=30% height=30%>
 
