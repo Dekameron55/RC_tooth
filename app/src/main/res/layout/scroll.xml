@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/texts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="horizontal"
+    android:scrollbars="horizontal"
+    android:textAlignment="center"
+    android:verticalScrollbarPosition="defaultPosition"
+    android:visibility="visible">
+    android:layout_constraintTop_toTopOf="parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="1"
+        android:text="Button"
+        tools:text="<3" />
+
+    <TextView
+        android:id="@+id/TextBR"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="-7dp"
+        android:text=" Brightness"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/TextProg"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-7dp"
+        android:layout_toRightOf="@id/TextBR"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/TextBR"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/TextHSV"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginTop="-7dp"
+        android:text=" HSV value"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/HSV"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-7dp"
+        android:layout_toRightOf="@id/TextHSV"
+        android:textSize="24sp" />
+    <SeekBar
+        android:id="@+id/seekBar6"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/HSV"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/TextSpeed"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar6"
+        android:layout_marginTop="-7dp"
+        android:text=" Speed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/SpeedVal"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar6"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-7dp"
+        android:layout_toRightOf="@id/TextSpeed"
+        android:textSize="24sp" />
+    <SeekBar
+        android:id="@+id/seekBar7"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/SpeedVal"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1" />
+</RelativeLayout>
